@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    
+
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Form</h1>
+      <form id="crud-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required autocomplete="additional-name" placeholder="Enter your name"/>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email" placeholder="Enter your email"/>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="Enter your phone number" />
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" required autocomplete="address-level2" placeholder="Enter your city"/>
+
+        <button id="btn" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="table-container">
+      <h2>Submitted Data</h2>
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>City</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!--Data row will be added here-->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

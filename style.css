@@ -1,0 +1,305 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f9;
+}
+
+.form-container, .table-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+label {
+  grid-column: span 1;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  grid-column: span 2;
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+table th {
+  background: #007bff;
+  color: white;
+}
+
+.actions button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.actions .edit-btn {
+  background: #ffc107;
+  border: none;
+  color: black;
+}
+
+.actions .delete-btn {
+  background: #dc3545;
+  border: none;
+  color: white;
+} */
+
+
+
+
+
+
+/* body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 20px;
+  background-color: #e0f7fa; 
+}
+
+.form-container, .table-container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00796b; 
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+label {
+  grid-column: span 1;
+  font-size: 16px;
+  color: #00796b;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #00796b;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  grid-column: span 2;
+  padding: 12px 24px;
+  border: none;
+  background: #00796b; 
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #004d40; /
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background: #00796b;
+  color: white;
+  font-weight: bold;
+}
+
+.actions button {
+  margin: 0 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.actions .edit-btn {
+  background: #ffb74d;
+  border: none;
+  color: white;
+}
+
+.actions .edit-btn:hover {
+  background: #f57c00; 
+}
+
+.actions .delete-btn {
+  background: #e57373; 
+  border: none;
+  color: white;
+}
+
+.actions .delete-btn:hover {
+  background: #d32f2f; 
+} */
+
+
+
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 20px;
+  background-color: #e0f7fa; /* Lighter blue background */
+}
+
+.form-container {
+  max-width: 703px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+.table-container {
+  max-width: 706px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #00796b; /* Darker teal for headings */
+  margin: 7px;
+}
+
+form {
+  display: grid;
+  grid-template-columns:  1fr;
+  gap: 12px;
+}
+
+label {
+  grid-column: span 1;
+  font-size: 16px;
+  color: #00796b;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #00796b;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: -6px;
+  margin-bottom: 4px;
+}
+
+/* General button style - used only for the main form button */
+#btn {
+  /* grid-column: span 2; */
+  padding: 12px 24px;
+  border: none;
+  background: teal; /* Teal color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  justify-self: center;
+}
+
+#btn:hover {
+  background-color: #004d40; /* Darker teal */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  
+}
+
+table th {
+  background: #00796b;
+  color: white;
+  font-weight: bold;
+  padding: 19px;
+  border: 1px solid #ddd;
+  text-align: center;
+ 
+}
+
+
+
+
+.edit-icon {
+  cursor: pointer;
+  font-size: 19px; /* Increased icon size */
+  /* padding: 4px;    More padding */
+  margin-right: 10px;
+  /* margin-left: 10px; */
+  
+}
+.delete-icon {
+  cursor: pointer;
+  font-size: 19px; /* Increased icon size */
+  /*padding: 4px;    /* More padding */
+  
+  
+}
+
